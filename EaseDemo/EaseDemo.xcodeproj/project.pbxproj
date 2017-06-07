@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9039C8BC1ED6920900FA151C /* EaseMessageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9039C8BB1ED6920900FA151C /* EaseMessageHelper.m */; };
+		9039C8C31ED6C2E500FA151C /* ConversationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9039C8BF1ED6C2E500FA151C /* ConversationCell.m */; };
+		9039C8C41ED6C2E500FA151C /* ConversationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9039C8C01ED6C2E500FA151C /* ConversationCell.xib */; };
+		9039C8C51ED6C2E500FA151C /* ConversationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9039C8C21ED6C2E500FA151C /* ConversationListViewController.m */; };
+		909C8B581ED532E900A7F16C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 909C8B571ED532E900A7F16C /* main.m */; };
+		90D30D281ED571F600E7040E /* UIViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D30D1C1ED571F600E7040E /* UIViewController+Category.m */; };
+		90D30D291ED571F600E7040E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D30D1F1ED571F600E7040E /* AppDelegate.m */; };
+		90D30D2A1ED571F600E7040E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D30D211ED571F600E7040E /* MainViewController.m */; };
+		90D30D2B1ED571F600E7040E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D30D241ED571F600E7040E /* LoginViewController.m */; };
+		90D30D2C1ED571F600E7040E /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D30D261ED571F600E7040E /* RegisterViewController.m */; };
+		90D30D3B1ED5725800E7040E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 90D30D3A1ED5725800E7040E /* Info.plist */; };
+		90D30D421ED5727800E7040E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D30D3C1ED5727800E7040E /* Assets.xcassets */; };
+		90D30D431ED5727800E7040E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D30D3E1ED5727800E7040E /* LaunchScreen.storyboard */; };
+		90D30D441ED5727800E7040E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D30D401ED5727800E7040E /* Main.storyboard */; };
+		90E6E5E31ED58DD10007CE20 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E6E5E21ED58DD10007CE20 /* NSString+Category.m */; };
+		90E6E5E61ED594F90007CE20 /* ConversationsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E6E5E51ED594F90007CE20 /* ConversationsManager.m */; };
+		E29C1CA34DF90FD9CB36DE3C /* libPods-EaseDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2B6820D778C983F3C67C9E /* libPods-EaseDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F2B6820D778C983F3C67C9E /* libPods-EaseDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EaseDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9039C8BA1ED6920900FA151C /* EaseMessageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseMessageHelper.h; sourceTree = "<group>"; };
+		9039C8BB1ED6920900FA151C /* EaseMessageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseMessageHelper.m; sourceTree = "<group>"; };
+		9039C8BE1ED6C2E500FA151C /* ConversationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationCell.h; sourceTree = "<group>"; };
+		9039C8BF1ED6C2E500FA151C /* ConversationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationCell.m; sourceTree = "<group>"; };
+		9039C8C01ED6C2E500FA151C /* ConversationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConversationCell.xib; sourceTree = "<group>"; };
+		9039C8C11ED6C2E500FA151C /* ConversationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationListViewController.h; sourceTree = "<group>"; };
+		9039C8C21ED6C2E500FA151C /* ConversationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationListViewController.m; sourceTree = "<group>"; };
+		909C8B531ED532E900A7F16C /* EaseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EaseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		909C8B571ED532E900A7F16C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90D30D1B1ED571F600E7040E /* UIViewController+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Category.h"; sourceTree = "<group>"; };
+		90D30D1C1ED571F600E7040E /* UIViewController+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Category.m"; sourceTree = "<group>"; };
+		90D30D1E1ED571F600E7040E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90D30D1F1ED571F600E7040E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90D30D201ED571F600E7040E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		90D30D211ED571F600E7040E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		90D30D231ED571F600E7040E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		90D30D241ED571F600E7040E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		90D30D251ED571F600E7040E /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		90D30D261ED571F600E7040E /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		90D30D391ED5724300E7040E /* EaseDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EaseDemo.entitlements; sourceTree = "<group>"; };
+		90D30D3A1ED5725800E7040E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D30D3C1ED5727800E7040E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90D30D3F1ED5727800E7040E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90D30D411ED5727800E7040E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		90E6E5E11ED58DD10007CE20 /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		90E6E5E21ED58DD10007CE20 /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		90E6E5E41ED594F90007CE20 /* ConversationsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationsManager.h; sourceTree = "<group>"; };
+		90E6E5E51ED594F90007CE20 /* ConversationsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationsManager.m; sourceTree = "<group>"; };
+		BE9C9166033D73A3DE663008 /* Pods-EaseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EaseDemo/Pods-EaseDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C91E0ED40D4374E34763FE7F /* Pods-EaseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EaseDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EaseDemo/Pods-EaseDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		909C8B501ED532E900A7F16C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29C1CA34DF90FD9CB36DE3C /* libPods-EaseDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34D129CDA144FF2355EEA558 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C91E0ED40D4374E34763FE7F /* Pods-EaseDemo.debug.xcconfig */,
+				BE9C9166033D73A3DE663008 /* Pods-EaseDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9039C8B91ED691FD00FA151C /* EaseHelper */ = {
+			isa = PBXGroup;
+			children = (
+				9039C8BA1ED6920900FA151C /* EaseMessageHelper.h */,
+				9039C8BB1ED6920900FA151C /* EaseMessageHelper.m */,
+			);
+			path = EaseHelper;
+			sourceTree = "<group>";
+		};
+		9039C8BD1ED6C2E500FA151C /* ConversationList */ = {
+			isa = PBXGroup;
+			children = (
+				9039C8BE1ED6C2E500FA151C /* ConversationCell.h */,
+				9039C8BF1ED6C2E500FA151C /* ConversationCell.m */,
+				9039C8C01ED6C2E500FA151C /* ConversationCell.xib */,
+				9039C8C11ED6C2E500FA151C /* ConversationListViewController.h */,
+				9039C8C21ED6C2E500FA151C /* ConversationListViewController.m */,
+			);
+			path = ConversationList;
+			sourceTree = "<group>";
+		};
+		909C8B4A1ED532E900A7F16C = {
+			isa = PBXGroup;
+			children = (
+				909C8B551ED532E900A7F16C /* EaseDemo */,
+				909C8B541ED532E900A7F16C /* Products */,
+				34D129CDA144FF2355EEA558 /* Pods */,
+				DE3C6C02DCE2311BD06F692B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		909C8B541ED532E900A7F16C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				909C8B531ED532E900A7F16C /* EaseDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		909C8B551ED532E900A7F16C /* EaseDemo */ = {
+			isa = PBXGroup;
+			children = (
+				90D30D1A1ED571F600E7040E /* Category */,
+				90D30D1D1ED571F600E7040E /* Class */,
+				909C8B561ED532E900A7F16C /* Supporting Files */,
+			);
+			path = EaseDemo;
+			sourceTree = "<group>";
+		};
+		909C8B561ED532E900A7F16C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90D30D3C1ED5727800E7040E /* Assets.xcassets */,
+				90D30D3D1ED5727800E7040E /* Base.lproj */,
+				90D30D3A1ED5725800E7040E /* Info.plist */,
+				90D30D391ED5724300E7040E /* EaseDemo.entitlements */,
+				909C8B571ED532E900A7F16C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90D30D1A1ED571F600E7040E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				90D30D1B1ED571F600E7040E /* UIViewController+Category.h */,
+				90D30D1C1ED571F600E7040E /* UIViewController+Category.m */,
+				90E6E5E11ED58DD10007CE20 /* NSString+Category.h */,
+				90E6E5E21ED58DD10007CE20 /* NSString+Category.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		90D30D1D1ED571F600E7040E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				9039C8B91ED691FD00FA151C /* EaseHelper */,
+				90D30D1E1ED571F600E7040E /* AppDelegate.h */,
+				90D30D1F1ED571F600E7040E /* AppDelegate.m */,
+				90D30D201ED571F600E7040E /* MainViewController.h */,
+				90D30D211ED571F600E7040E /* MainViewController.m */,
+				90D30D221ED571F600E7040E /* Register&Login */,
+				90D30D271ED571F600E7040E /* ViewControllers */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		90D30D221ED571F600E7040E /* Register&Login */ = {
+			isa = PBXGroup;
+			children = (
+				90D30D231ED571F600E7040E /* LoginViewController.h */,
+				90D30D241ED571F600E7040E /* LoginViewController.m */,
+				90D30D251ED571F600E7040E /* RegisterViewController.h */,
+				90D30D261ED571F600E7040E /* RegisterViewController.m */,
+			);
+			path = "Register&Login";
+			sourceTree = "<group>";
+		};
+		90D30D271ED571F600E7040E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9039C8BD1ED6C2E500FA151C /* ConversationList */,
+				90E6E5E41ED594F90007CE20 /* ConversationsManager.h */,
+				90E6E5E51ED594F90007CE20 /* ConversationsManager.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		90D30D3D1ED5727800E7040E /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				90D30D3E1ED5727800E7040E /* LaunchScreen.storyboard */,
+				90D30D401ED5727800E7040E /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		DE3C6C02DCE2311BD06F692B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F2B6820D778C983F3C67C9E /* libPods-EaseDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		909C8B521ED532E900A7F16C /* EaseDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 909C8B6A1ED532E900A7F16C /* Build configuration list for PBXNativeTarget "EaseDemo" */;
+			buildPhases = (
+				769B137AD8D2633E3CDB86F8 /* [CP] Check Pods Manifest.lock */,
+				909C8B4F1ED532E900A7F16C /* Sources */,
+				909C8B501ED532E900A7F16C /* Frameworks */,
+				909C8B511ED532E900A7F16C /* Resources */,
+				CA16144BD02D20F53BBC2DBD /* [CP] Embed Pods Frameworks */,
+				DF972401EDB7DCCD95132771 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EaseDemo;
+			productName = EaseDemo;
+			productReference = 909C8B531ED532E900A7F16C /* EaseDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		909C8B4B1ED532E900A7F16C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "杜洁鹏";
+				TargetAttributes = {
+					909C8B521ED532E900A7F16C = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 499WYUV8Q2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 909C8B4E1ED532E900A7F16C /* Build configuration list for PBXProject "EaseDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 909C8B4A1ED532E900A7F16C;
+			productRefGroup = 909C8B541ED532E900A7F16C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				909C8B521ED532E900A7F16C /* EaseDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		909C8B511ED532E900A7F16C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D30D441ED5727800E7040E /* Main.storyboard in Resources */,
+				90D30D431ED5727800E7040E /* LaunchScreen.storyboard in Resources */,
+				90D30D3B1ED5725800E7040E /* Info.plist in Resources */,
+				90D30D421ED5727800E7040E /* Assets.xcassets in Resources */,
+				9039C8C41ED6C2E500FA151C /* ConversationCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		769B137AD8D2633E3CDB86F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA16144BD02D20F53BBC2DBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EaseDemo/Pods-EaseDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF972401EDB7DCCD95132771 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EaseDemo/Pods-EaseDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		909C8B4F1ED532E900A7F16C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D30D281ED571F600E7040E /* UIViewController+Category.m in Sources */,
+				90E6E5E61ED594F90007CE20 /* ConversationsManager.m in Sources */,
+				90D30D2C1ED571F600E7040E /* RegisterViewController.m in Sources */,
+				909C8B581ED532E900A7F16C /* main.m in Sources */,
+				90E6E5E31ED58DD10007CE20 /* NSString+Category.m in Sources */,
+				9039C8BC1ED6920900FA151C /* EaseMessageHelper.m in Sources */,
+				9039C8C51ED6C2E500FA151C /* ConversationListViewController.m in Sources */,
+				90D30D291ED571F600E7040E /* AppDelegate.m in Sources */,
+				90D30D2A1ED571F600E7040E /* MainViewController.m in Sources */,
+				9039C8C31ED6C2E500FA151C /* ConversationCell.m in Sources */,
+				90D30D2B1ED571F600E7040E /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90D30D3E1ED5727800E7040E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90D30D3F1ED5727800E7040E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		90D30D401ED5727800E7040E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90D30D411ED5727800E7040E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		909C8B681ED532E900A7F16C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		909C8B691ED532E900A7F16C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		909C8B6B1ED532E900A7F16C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C91E0ED40D4374E34763FE7F /* Pods-EaseDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EaseDemo/EaseDemo.entitlements;
+				DEVELOPMENT_TEAM = 499WYUV8Q2;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EaseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easemob.testDemo.EaseDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		909C8B6C1ED532E900A7F16C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9C9166033D73A3DE663008 /* Pods-EaseDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = EaseDemo/EaseDemo.entitlements;
+				DEVELOPMENT_TEAM = 499WYUV8Q2;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EaseDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easemob.testDemo.EaseDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		909C8B4E1ED532E900A7F16C /* Build configuration list for PBXProject "EaseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909C8B681ED532E900A7F16C /* Debug */,
+				909C8B691ED532E900A7F16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		909C8B6A1ED532E900A7F16C /* Build configuration list for PBXNativeTarget "EaseDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				909C8B6B1ED532E900A7F16C /* Debug */,
+				909C8B6C1ED532E900A7F16C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 909C8B4B1ED532E900A7F16C /* Project object */;
+}
